@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FASHION. | Style Defines You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Cairo:wght@400;600;700&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">FASHION.</a>
+
+      <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search">
+          <svg viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="7" />
+            <path d="M20 20l-4-4" />
+          </svg>
+        </button>
+        <button class="icon-btn" aria-label="Cart">
+          <svg viewBox="0 0 24 24">
+            <path d="M3 4h3l2.5 11h9L20 7H7" />
+            <circle cx="10" cy="19" r="1.3" />
+            <circle cx="17" cy="19" r="1.3" />
+          </svg>
+        </button>
+        <a href="login.html" class="login-btn">Login</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-content">
+            <span class="eyebrow">NEW COLLECTION</span>
+            <h1>Style Defines <span>You</span></h1>
+            <p dir="rtl">
+              اكتشف أحدث صيحات الموضة الرجالية مع أفضل الخامات والتصاميم
+              العصرية.
+            </p>
+            <a href="services.html" class="btn-primary"
+              >Shop Now <span>→</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="about">
+        <div class="features-container">
+          <div class="feature-item">
+            <svg class="feature-icon" viewBox="0 0 48 48">
+              <rect x="4" y="12" width="26" height="20" rx="3" />
+              <path d="M30 18h8l6 7v7h-14" />
+              <circle cx="14" cy="35" r="3.5" />
+              <circle cx="36" cy="35" r="3.5" />
+            </svg>
+            <div class="feature-text">
+              <h3>Free Shipping</h3>
+              <p>On orders over 1000 EGP</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <svg class="feature-icon" viewBox="0 0 48 48">
+              <path d="M24 4l16 6v12c0 10-7 17-16 21C15 39 8 32 8 22V10z" />
+              <path d="M17 23l5 5 9-10" />
+            </svg>
+            <div class="feature-text">
+              <h3>Secure Payment</h3>
+              <p>100% secure payment</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <svg class="feature-icon" viewBox="0 0 48 48">
+              <path d="M40 24a16 16 0 1 1-6-12.5" />
+              <path d="M36 4v9h-9" />
+            </svg>
+            <div class="feature-text">
+              <h3>Easy Returns</h3>
+              <p>Within 7 days</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <svg class="feature-icon" viewBox="0 0 48 48">
+              <path d="M8 28v-6a16 16 0 0 1 32 0v6" />
+              <rect x="6" y="26" width="7" height="12" rx="3" />
+              <rect x="35" y="26" width="7" height="12" rx="3" />
+              <path d="M38 38c0 4-6 5-12 5" />
+            </svg>
+            <div class="feature-text">
+              <h3>24/7 Support</h3>
+              <p>We're here to help</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured" id="featured">
+        <div class="section-heading">
+          <span class="eyebrow">FEATURED PRODUCTS</span>
+          <h2>Best Sellers</h2>
+          <div class="heading-line"></div>
+        </div>
+
+        <div class="product-grid">
+          <article data-id="classic-set" class="product-card">
+            <div class="card-image">
+              <span class="badge">NEW</span>
+              <img src="img/set.jpg" alt="طقم رجالي كلاسيك" />
+            </div>
+            <div class="product-info">
+              <h3>طقم رجالي كلاسيك</h3>
+              <div class="price">1,500 EGP</div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </article>
+
+          <article data-id="hoodie" class="product-card">
+            <div class="card-image">
+              <span class="badge">POPULAR</span>
+              <img src="img/479563060333590981.jpg" alt="هودي رجالي" />
+            </div>
+            <div class="product-info">
+              <h3>هودي رجالي</h3>
+              <div class="price">950 EGP</div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </article>
+
+          <article data-id="shirt" class="product-card">
+            <div class="card-image">
+              <span class="badge">TRENDING</span>
+              <img src="img/shirt.jpg" alt="قميص رجالي" />
+            </div>
+            <div class="product-info">
+              <h3>قميص رجالي</h3>
+              <div class="price">700 EGP</div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </article>
+
+          <article data-id="jacket" class="product-card">
+            <div class="card-image">
+              <span class="badge">BEST SELLER</span>
+              <img src="img/jacket.jpg" alt="جاكيت شبابي" />
+            </div>
+            <div class="product-info">
+              <h3>جاكيت شبابي</h3>
+              <div class="price">1,350 EGP</div>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <a href="index.html" class="logo">FASHION.</a>
+      <p dir="rtl">© 2026 FASHION. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account | FASHION.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Cairo:wght@400;600;700&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="auth.css" />
+  </head>
+  <body class="auth">
+    <a href="index.html" class="logo">FASHION.</a>
+
+    <main class="auth-card">
+      <h1>Create Account</h1>
+      <p class="lead" dir="rtl">اعمل حساب جديد في ثواني.</p>
+
+      <form id="authForm" data-auth="signup" novalidate>
+        <div class="field">
+          <label for="name">Name</label
+          ><input
+            id="name"
+            name="name"
+            type="text"
+            autocomplete="name"
+            dir="auto"
+          /><small class="err"></small>
+        </div>
+        <div class="field">
+          <label for="email">Email</label
+          ><input
+            id="email"
+            name="email"
+            type="email"
+            autocomplete="email"
+          /><small class="err"></small>
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <div class="input">
+            <input
+              id="password"
+              name="password"
+              type="password"
+              autocomplete="new-password"
+            /><button type="button" class="toggle" data-toggle="password">
+              Show
+            </button>
+          </div>
+          <small class="err"></small>
+        </div>
+        <div class="field">
+          <label for="confirm">Confirm password</label>
+          <div class="input">
+            <input
+              id="confirm"
+              name="confirm"
+              type="password"
+              autocomplete="new-password"
+            /><button type="button" class="toggle" data-toggle="confirm">
+              Show
+            </button>
+          </div>
+          <small class="err"></small>
+        </div>
+        <p class="form-msg" role="alert"></p>
+        <button class="btn-primary" type="submit">Create Account</button>
+      </form>
+
+      <p class="switch">
+        Already have an account? <a href="login.html">Login</a>
+      </p>
+    </main>
+
+    <a href="index.html" class="back">← Back to store</a>
+    <script src="auth.js"></script>
+  </body>
+</html>
